@@ -1,1 +1,2 @@
 # BIPBIP-Order-Form
+This page serves as an order form for my group’s Tiendesitas business in high school. It makes use of mainly input fields and values. The CSS is more complex as it makes use of more advanced selectors for input decoration. The main strength of my code here is that it is easy to read and straightforward, and it is responsive and visually-pleasing when executed. However, the code could be more efficient in terms of using classes to make the CSS file a little shorter.
