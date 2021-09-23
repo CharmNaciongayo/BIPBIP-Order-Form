@@ -1,0 +1,204 @@
+/**Font Imports**/
+
+@font-face {
+    font-family: "Helvetica Now";
+    src: url(/Fonts/HelveticaNowText-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Now";
+    src: url(/Fonts/HelveticaNowText-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Helvetica Now";
+    src: url(/Fonts/HelveticaNowText-Light.ttf);
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "Scalter";
+    src: url(/Fonts/Scalter-SerifCondensed.otf);
+}
+
+body {
+    background-image: url(/Images/backrgound\ for\ form.png);
+    background-size: contain;
+    background-repeat: repeat;
+    font-family: "Helvetica Now";
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-size: 25px !important;
+    width: 100%;
+}
+
+#real-header {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    width: 102%;
+    height: 200px;
+}
+
+#header {
+    background-image: url(/Images/Logo-01.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70%;
+}
+
+#form-description {
+    background-image: url(/Images/Order\ form\ desctiption.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+}
+
+.container {
+    width: 65%;
+    margin: 50px auto 0px auto;
+}
+
+#survey-form {
+    overflow-x: hidden;
+    padding: 50px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #f5eacb;
+    margin-top: 50px;
+}
+
+select {
+    height: 50px;
+    background: inherit;
+    border-width: 1px;
+    width: 100% !important;
+    font-family: "Helvetica Now";
+    text-indent: 10px;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    text-indent: 10px;
+    background-color: inherit;
+    border-width: 1px;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: bold;
+    width: 100%;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+::placeholder {
+    text-indent: 10px;
+    font-family: "helvetica now";
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    background-color: inherit;
+    box-sizing: border-box;
+    font-family: "Helvetica Now";
+    padding: 10px;
+}
+
+textarea::placeholder {
+    text-indent: 0;
+}
+
+#submit {
+    width: 100%;
+    margin: auto;
+    padding: 15px 10px 10px 10px;
+    background-color: black;
+    color: #f5eacb;
+    font-family: "Scalter";
+    letter-spacing: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#submit:hover {
+    background-color: #f1d550;
+    color: black;
+}
+
+option {
+    font-family: "Helvetica Now";
+}
+
+footer {
+    background-color: black;
+    color: #f1d550;
+    margin-top: 80px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: "Scalter";
+    letter-spacing: 1px;
+}
+
+.clue {
+    font-weight: lighter;
+}
+
+#product-photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px auto 20px auto;
+}
+
+.product-photo {
+    width: 48%;
+    padding-bottom: 48%;
+    background-color: black;
+    background-size: contain;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#WAP-photo {
+    background-image: url(/Images/Artboard\ 2.png);
+}
+
+#CBP-photo {
+    background-image: url(/Images/Artboard\ 3.png);
+}
+
+*:focus {
+    outline-color: #ec3443;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+    cursor: pointer;
+}

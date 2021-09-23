@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIPBIP! Tindasitas Order Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class=container>
+        <div id=survey-padding>
+            <div id=real-header>
+                <div id=header>
+                </div>
+                <div id="form-description"></div>
+            </div>
+            <form id=survey-form>
+
+                <div class=form-group>
+                    <label id=name-label for=name>Name</label><br>
+                    <input id=name type=text class=form-control placeholder="Enter your name" required>
+                </div>
+                <div class=form-group>
+                    <label id=email-label for=email>Email</label><br>
+                    <input id=email type=email class=form-control placeholder="Enter your email" required>
+                </div>
+                <div class=form-group>
+                    <label id=number-label for=number>Phone Number<span class=clue></span><br><input id=number type=number class=form-control placeholder="09XX XXX XXXX"></label><br>
+                </div>
+                <div class=form-group>
+                    <label>Batch</label>
+                    <select id=dropdown name=batch class=form-control required>
+        <option disabled selected value=0>Select your batch</option>
+        <option value=1>Green</option>
+        <option value=2>Pink</option>
+        <option value=3>Blue</option>
+        <option value=4>Yellow</option>
+      </select>
+                </div>
+                <div id=product-photos>
+                    <div class=product-photo id=WAP-photo></div>
+                    <div class=product-photo id=CBP-photo></div>
+                </div>
+                <div class=form-group>
+                    <label id=number-label for=number>Quantity<span class=clue></span><input id=number type=text class=form-control placeholder="WAP! - 1, Classic Cheeseburger Pizza - 3"></label><br>
+                </div>
+                <div class=form-group>
+                    <label>Other Requests</label>
+                    <textarea id=comments class=input-textarea name=comment placeholder="Enter your comments here..."></textarea>
+                </div>
+
+                <button type=submit id=submit class=submit-button>Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>MCHS Tindasitas 2020</footer>
+</body>
+
+</html>
